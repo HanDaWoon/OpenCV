@@ -2,5 +2,7 @@
 goorm.manifest
 
 # img dir
-ImgOrg/
-ImgRst/
+OrgImg/
+RstImg/
+
+*.sh

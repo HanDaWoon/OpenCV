@@ -11,4 +11,4 @@ cv2.ellipse(img, (256, 256), (100, 50), 0, 0, 180, (255, 0, 0), -1)    # 타원 
 font = cv2.FONT_HERSHEY_SIMPLEX    #폰트 지정
 cv2.putText(img, 'OpenCV', (10, 500), font, 4, (255,255,255), 2)    # 글자 표시 img에, '~'라는 글자를, 좌표에, 폰트, 크기, BGR, 굵기
 
-cv2.imwrite('dst/draw_img.jpg', img)    # 저장
+cv2.imwrite('RstImg/draw_img.jpg', img)    # 저장
