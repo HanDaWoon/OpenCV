@@ -1,9 +1,9 @@
 import cv2
 import numpy as np
 
-def add_image(imgfile1, imgdile2):    # 합성 하는 함수 선언
-    img1 = cv2.imread(imgfile1)    # 1번 이미지 읽기
-    img2 = cv2.imread(imgdile2)    # 2번 이미지 읽기
+def add_image(imgfile1, imgdile2):    #합성 하는 함수 선언
+    img1 = cv2.imread(imgfile1)    #1번 이미지 읽기
+    img2 = cv2.imread(imgdile2)    #2번 이미지 읽기
     
     #이미지 합성하기
     add_img1 = img1 + img2
